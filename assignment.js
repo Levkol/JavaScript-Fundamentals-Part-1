@@ -1,11 +1,13 @@
-/*--------------------------1 ASSIGNMENT: VALUES AND VARIABLES:--------------------------*/
+//--------------------------1 ASSIGNMENT: VALUES AND VARIABLES:--------------------------
+/*
+
 // let country = `Hungary`;
 // let continent = `Europe`;
 let population = 9.71;
 // console.log(country, continent, population);
 
 
-/*--------------------------2 ASSIGNMENT: DATA TYPES:--------------------------*/
+//--------------------------2 ASSIGNMENT: DATA TYPES:--------------------------
 // let isIsland = false;
 let language;
 
@@ -15,7 +17,7 @@ let language;
 // console.log(typeof language);
 
 
-/*--------------------------3 ASSIGNMENT: DECLARING VARIABLES:--------------------------*/
+//--------------------------3 ASSIGNMENT: DECLARING VARIABLES:--------------------------
 language = `hungarien`;
 const country = `Hungary`;
 const continent = `Europe`;
@@ -24,7 +26,7 @@ const isIsland = false;
 // isIsland = true;
 
 
-/*--------------------------4 ASSIGNMENT: BASIC OPERATORS:--------------------------*/
+//--------------------------4 ASSIGNMENT: BASIC OPERATORS:--------------------------
 console.log(population / 2);
 
 population ++;
@@ -39,15 +41,15 @@ const description = `${country} is in ${continent}, and its ${population} millio
 console.log(description);
 
 
-/*--------------------------5 ASSIGNMENT: OPERATORS PRECEDENCE:--------------------------*/
+//--------------------------5 ASSIGNMENT: OPERATORS PRECEDENCE:--------------------------
 
 
-/*--------------------------6 ASSIGNMENT: STRINGES AND TEMPLATE LITERALS:--------------------------*/
+//-------------------------6 ASSIGNMENT: STRINGES AND TEMPLATE LITERALS:--------------------------
 const description2 = `${country} is in ${continent}, and its ${population} million people speak ${language}.`
 console.log(description2);
 
 
-/*--------------------------7 ASSIGNMENT: TAKE DECISIONS: IF / ELSE STATEMENTS--------------------------*/
+//--------------------------7 ASSIGNMENT: TAKE DECISIONS: IF / ELSE STATEMENTS--------------------------
 if (population > 33){
     console.log(`${country}'s population is above average.`);
 } else {
@@ -55,14 +57,14 @@ if (population > 33){
 }
 
 
-/*--------------------------8 ASSIGNMENT: TYPE CONVERSION AND COERCION--------------------------*/
+//--------------------------8 ASSIGNMENT: TYPE CONVERSION AND COERCION--------------------------
 4
 617
 23
 false
 1143
 
-/*--------------------------9 ASSIGNMENT: EQUALITY OPERATORS == VS ===--------------------------*/
+//--------------------------9 ASSIGNMENT: EQUALITY OPERATORS == VS ===--------------------------
 // const numNeighbours = Number(prompt(`How many neighbours countries does your country have?`));
 // if (numNeighbours === 1){
 //     console.log(`Only 1 border!`);
@@ -73,7 +75,7 @@ false
 // };
 
 
-/*--------------------------10 ASSIGNMENT: THE LOGICAL OPERATORS--------------------------*/
+//--------------------------10 ASSIGNMENT: THE LOGICAL OPERATORS--------------------------
 if (language === `english` && population < 50 && isIsland === false){
     console.log(`You should live in ${country}`);
 } else {
@@ -81,7 +83,7 @@ if (language === `english` && population < 50 && isIsland === false){
 };
 
 
-/*--------------------------11 ASSIGNMENT: THE SWITCH STATEMENT--------------------------*/
+//--------------------------11 ASSIGNMENT: THE SWITCH STATEMENT--------------------------
 switch(language){
     case `chinese`:
     case `mandarin`:
@@ -103,5 +105,6 @@ switch(language){
         console.log(`Great language too :D`);
 }
 
-/*--------------------------12 ASSIGNMENT: THE CONDINTIONAL (TERNARY) OPERATOR--------------------------*/
+//--------------------------12 ASSIGNMENT: THE CONDINTIONAL (TERNARY) OPERATOR--------------------------
 population >= 33 ? console.log(`${country}'s population is above average.`) : console.log(`${country}'s population is below average.`);
+*/
